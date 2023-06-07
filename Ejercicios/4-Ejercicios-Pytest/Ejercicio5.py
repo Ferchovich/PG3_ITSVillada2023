@@ -7,7 +7,6 @@ def search_matrix(matrix, target):
     rows = len(matrix)
     cols = len(matrix[0])
 
-    # Iniciar los punteros en la esquina superior derecha
     row = 0
     col = cols - 1
 
